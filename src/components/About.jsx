@@ -2,7 +2,7 @@ import React from 'react';
 import pic from "../../public/certi1.png"
 import pic1 from "../../public/IBM.jpg"
 import pic2 from "../../public/NIIT.jpg"
-import Tools from './tools';
+import Tools from './Tools';
 
 
 
