@@ -82,6 +82,7 @@ const Navbar = () => {
                            to={text}
                             smooth={true}
                             duration={500}
+                            offset={-120}
                             activeClass='active'
                             
                             >{text}</Link> 

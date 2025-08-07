@@ -1,4 +1,5 @@
 import React from 'react';
+import pic0 from "../../public/java.jpg"
 import pic from "../../public/certi1.png"
 import pic1 from "../../public/IBM.jpg"
 import pic2 from "../../public/NIIT.jpg"
@@ -29,7 +30,7 @@ const About = () => {
       <div className='space-y-6'>
   {/* B.Sc Block */}
   <div className='bg-gray-100 p-4 rounded-xl shadow-md relative'>
-    <span className='absolute top-2 right-4 text-lg font-semibold text-gray-600'>Percentage-80%</span>
+    <span className='absolute top-1 right-4 text-sm md:text-base font-semibold text-gray-600'>CGPA-8.01</span>
     <h3 className='text-lg font-bold'>B.Sc in Computer Science</h3>
     <p className='text-md text-gray-600'>Midnapore College (Autonomous) | 2022 - 2025</p>
     <p className='text-gray-700 mt-1'>
@@ -39,7 +40,7 @@ const About = () => {
 
   {/* Higher Secondary Block */}
   <div className='bg-gray-100 p-4 rounded-xl shadow-md relative'>
-    <span className='absolute top-2 right-4 text-lg font-semibold text-gray-600'>Percentage-91%</span>
+    <span className='absolute top-10 right-4 text-sm md:text-base font-semibold text-gray-600'>Percentage-91%</span>
     <h3 className='text-lg font-bold'>Higher Secondary (Class XII from WBCHSE Board)</h3>
     <p className='text-md text-gray-600'>Tatarpur High School | 2020 - 2022</p>
     <p className='text-gray-700 mt-1'>
@@ -49,10 +50,10 @@ const About = () => {
 
   {/* Secondary Block */}
   <div className='bg-gray-100 p-4 rounded-xl shadow-md relative'>
-    <span className='absolute top-2 right-4 text-lg font-semibold text-gray-600'>Percentage-86.57%</span>
-    <h3 className='text-lg font-bold'>Secondary (Class X from WBBSE Board)</h3>
-    <p className='text-md text-gray-600'>Tatarpur High School | 2020 - 2022</p>
-    <p className='text-gray-700 mt-1'>
+    <span className='absolute top-10 right-4 text-sm md:text-base font-semibold text-gray-600'>Percentage-86.57%</span>
+    <h3 className='text-lg md:text-xl font-bold text-gray-800'>Secondary (Class X from WBBSE Board)</h3>
+    <p className='text-sm md:text-base text-gray-600'>Gohaldanga High School | 2020</p>
+    <p className='text-sm md:text-base text-gray-700 mt-2'>
       Science stream with Physics, Chemistry with strong foundation in Math and programming basics.
     </p>
   </div>
@@ -71,6 +72,20 @@ const About = () => {
 
       <h2 className='text-2xl font-semibold text-green-600 mb-4'>🏆 Achievements & Certifications</h2>
       <div className='grid md:grid-cols-3 gap-6'>
+
+        {/* Certificate 0 */}
+
+        <div className='bg-white rounded-lg shadow-lg p-4'>
+          <a href='https://simpli-web.app.link/e/pDHaymn1rVb' target='_blank' rel='noopener noreferrer'>
+            <img
+              src={pic0} // Place image in public/certificates folder
+              alt='Scaler DBMS Certificate'
+              className='rounded-md w-full h-48 object-cover mb-2 hover:scale-105 duration-200'
+            />
+          </a>
+          <p className='mt-5 font-semibold text-sm text-gray-700 text-center'>Scaler Academy – DBMS Certification</p>
+
+        </div>
 
         {/* Certificate 1 */}
 
